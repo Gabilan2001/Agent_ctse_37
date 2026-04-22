@@ -1,0 +1,7 @@
+langchain-community
+langgraph
+langchain-core
+ollama
+flake8
+bandit
+pytest
