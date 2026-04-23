@@ -1,0 +1,33 @@
+ # Virtual Environment
+venv/
+env/
+
+# Python cache
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+
+# Logs & Outputs
+logs/
+outputs/
+
+# Test cache
+.pytest_cache/
+.coverage
+htmlcov/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/
+
+# Ollama / model files
+*.bin
+*.gguf
+
+# Environment variables
+.env
