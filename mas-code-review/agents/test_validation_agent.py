@@ -104,7 +104,7 @@ Generated: {datetime.now().strftime("%Y-%m-%d %H:%M:%S")}
     return report_path
 
 
-def test_validation_node(state: AgentState) -> AgentState:
+def validation_node(state: AgentState) -> AgentState:
     """
     Agent node that generates pytest unit tests for the
     fixed code and executes them to validate correctness.

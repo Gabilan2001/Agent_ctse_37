@@ -1,5 +1,5 @@
 # test_agent4.py
-from agents.test_validation_agent import test_validation_node
+from agents.test_validation_agent import validation_node
 
 state = {
     "file_path": "tests/sample_inputs/clean_code.py",
@@ -38,7 +38,7 @@ state = {
     "status": "running"
 }
 
-result = test_validation_node(state)
+result = validation_node(state)
 print("Test Results:", result["test_results"])
 print("Report saved to:", result["final_report_path"])
 print("Status:", result["status"])

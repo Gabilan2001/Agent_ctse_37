@@ -4,7 +4,7 @@ from state.agent_state import AgentState
 from agents.code_understanding_agent import code_understanding_node
 from agents.bug_analyst_agent import bug_analyst_node
 from agents.fix_generation_agent import fix_generation_node
-from agents.test_validation_agent import test_validation_node
+from agents.test_validation_agent import validation_node
 
 
 def build_pipeline():
@@ -33,7 +33,7 @@ def build_pipeline():
     )
     graph.add_node(
         "TestValidationAgent",
-        test_validation_node
+        validation_node
     )
 
     # Define sequential edges
