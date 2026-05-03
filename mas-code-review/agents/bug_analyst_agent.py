@@ -150,5 +150,3 @@ Identify ALL bugs and issues as JSON.
         )
 
     return state
-
-
