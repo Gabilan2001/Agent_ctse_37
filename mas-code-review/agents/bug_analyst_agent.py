@@ -152,13 +152,3 @@ Identify ALL bugs and issues as JSON.
     return state
 
 
- except Exception as e:
-        log_event(
-            agent="BugAnalystAgent",
-            event="error",
-            detail=str(e)
-        )
-        state["status"] = "failed"
-        state["logs"].append(
-            f"BugAnalystAgent ERROR: {str(e)}"
-        )
